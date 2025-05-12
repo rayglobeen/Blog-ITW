@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Operation Sindoor - A Proud Indian Narrative</title>
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Poppins:wght@500;700&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --navy: #0f1b2a;
+      --cream: #fdf6ec;
+      --white: #ffffff;
+      --accent: #ff6b35;
+      --text-dark: #1a1a1a;
+      --box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+    }
+
+    body {
+      margin: 0;
+      font-family: 'Merriweather', serif;
+      background-color: var(--cream);
+      color: var(--text-dark);
+      line-height: 1.7;
+    }
+
+    header {
+      background: linear-gradient(90deg, var(--navy), #1c2f4a);
+      color: white;
+      padding: 40px 20px 25px;
+      text-align: center;
+    }
+
+    header h1 {
+      font-family: 'Poppins', sans-serif;
+      margin: 0;
+      font-size: 3em;
+    }
+
+    .quote {
+      font-size: 1.3em;
+      color: var(--accent);
+      font-style: italic;
+      margin-top: 10px;
+    }
+
+    nav {
+      margin-top: 15px;
+    }
+
+    nav a {
+      color: var(--accent);
+      text-decoration: none;
+      margin: 0 18px;
+      font-weight: 500;
+      font-size: 1.1em;
+      font-family: 'Poppins', sans-serif;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    section {
+      background-color: var(--white);
+      margin: 50px auto;
+      padding: 40px;
+      max-width: 1100px;
+      border-radius: 12px;
+      box-shadow: var(--box-shadow);
+    }
+
+    h2 {
+      color: var(--navy);
+      font-size: 2.2em;
+      font-family: 'Poppins', sans-serif;
+      border-left: 6px solid var(--accent);
+      padding-left: 15px;
+    }
+
+    .image-scroll {
+      display: flex;
+      overflow-x: auto;
+      gap: 20px;
+      margin: 30px 0;
+      padding-bottom: 10px;
+      scrollbar-width: thin;
+    }
+
+    .image-scroll::-webkit-scrollbar {
+      height: 8px;
+    }
+
+    .image-scroll::-webkit-scrollbar-thumb {
+      background-color: var(--accent);
+      border-radius: 4px;
+    }
+
+    .image-box {
+      min-width: 300px;
+      flex-shrink: 0;
+      overflow: hidden;
+      border-radius: 12px;
+      box-shadow: var(--box-shadow);
+      background-color: var(--cream);
+      transition: transform 0.3s, box-shadow 0.3s;
+    }
+
+    .image-box img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+      display: block;
+      border-bottom: 4px solid var(--accent);
+    }
+
+    .image-box:hover {
+      transform: scale(1.03);
+      box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+    }
+
+    footer {
+      background-color: var(--navy);
+      color: white;
+      padding: 30px 20px;
+      text-align: center;
+      font-size: 0.95em;
+      margin-top: 50px;
+    }
+
+    .comment-form {
+      margin-top: 40px;
+    }
+
+    .comment-form h3 {
+      font-family: 'Poppins', sans-serif;
+      font-size: 1.5em;
+      color: var(--navy);
+      margin-bottom: 15px;
+    }
+
+    .comment-form textarea {
+      width: 100%;
+      padding: 15px;
+      font-size: 1em;
+      border-radius: 8px;
+      border: 1px solid #ccc;
+      resize: vertical;
+      font-family: 'Merriweather', serif;
+    }
+
+    .comment-form button {
+      margin-top: 12px;
+      padding: 10px 25px;
+      background-color: var(--accent);
+      color: white;
+      border: none;
+      border-radius: 6px;
+      font-size: 1em;
+      cursor: pointer;
+      font-family: 'Poppins', sans-serif;
+    }
+
+    .comment-form button:hover {
+      background-color: #e85c28;
+    }
+
+    @media (max-width: 600px) {
+      header h1 {
+        font-size: 2.2em;
+      }
+
+      nav a {
+        display: block;
+        margin: 10px 0;
+      }
+
+      .image-box {
+        min-width: 240px;
+      }
+
+      .image-box img {
+        height: 160px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Operation Sindoor</h1>
+    <div class="quote">“Justice Served!”</div>
+    <nav>
+      <a href="#introduction">Introduction</a>
+      <a href="#execution">Execution</a>
+      <a href="#conclusion">Conclusion</a>
+    </nav>
+  </header>
+
+  <section id="introduction">
+    <h2>Genesis of Operation Sindoor</h2>
+    <p>
+      On April 22, 2025, a horrifying terror attack in Pahalgam, Jammu & Kashmir, shook the nation. 26 innocent tourists were brutally killed by terrorists linked to The Resistance Front (TRF), a proxy of the Pakistan-based Lashkar-e-Taiba.
+    </p>
+    <p>
+      This tragedy became the tipping point for the Indian government and 1.4 billion Indians, which led to <strong>OPERATION SINDOOR</strong>—a bold, strategic response to dismantle terror infrastructure across the border. This operation stands as a testimony to India's commitment to defending its people and sovereignty through precise, calculated, and non-escalatory actions.
+    </p>
+  </section>
+
+  <section id="execution">
+    <h2>The Execution of Operation Sindoor</h2>
+    <p>
+      At 1:44 AM on May 7, 2025, the Indian Armed Forces began coordinated air and artillery strikes targeting 9 verified terror launch pads in Pakistan-occupied Kashmir (PoK). These were eliminated with high precision, sending a powerful signal of deterrence.
+      <br><br>
+      The nine terrorist camps targeted were: Shawai Nallah (Muzaffarabad), Muridke, Gulpur (Kotli), Barnala (Bhimber), Abbas (Kotli), Sarjal (Sialkot), Mehmoona Joya (Sialkot), Markaz Taiba (Muridke), and Markaz Subhanallah (Bahawalpur).
+    </p>
+
+    <div class="image-scroll">
+      <div class="image-box"><img src="Images/1000043154.jpg" alt="Airstrike Preparation"></div>
+      <div class="image-box"><img src="Images/1000043156.jpg" alt="Launch Pad Hit"></div>
+      <div class="image-box"><img src="Images/1000043158.jpg" alt="Satellite Feed"></div>
+      <div class="image-box"><img src="Images/1000043160.jpg" alt="Strike Confirmation"></div>
+      <div class="image-box"><img src="Images/1000043162.jpg" alt="Post-Operation Analysis"></div>
+    </div>
+
+    <p>
+      In retaliation, Pakistan launched over 400 hostile drones toward Indian territories. However, the layered Indian Air Defence network—including <strong>S-400 (Sudarshan Chakra), Akash, and Spyder</strong> systems—neutralized the threat with near-perfect efficiency.
+    </p>
+
+    <p>
+      In the following 48 hours, India conducted follow-up operations targeting 11 Pakistani air bases to cripple their offensive capability. These strikes paralyzed enemy infrastructure deep inside enemy territory, showcasing India’s capability to wage modern, multi-domain warfare.
+    </p>
+
+    <div class="image-scroll">
+      <div class="image-box"><img src="imh/1000043164.jpg" alt="Drone Interception"></div>
+      <div class="image-box"><img src="imh/1000043166.jpg" alt="Radar Deployment"></div>
+      <div class="image-box"><img src="imh/1000043168.jpg" alt="Strike Visuals"></div>
+      <div class="image-box"><img src="imh/1000043170.jpg" alt="Command Centre"></div>
+      <div class="image-box"><img src="imh/1000043171.jpg" alt="Debriefing Room"></div>
+    </div>
+
+    <p>
+      On May 10, after India decimated Pakistan’s air bases and, according to credible intelligence, struck deep into its nuclear facilities, a panicked Pakistan scrambled to beg for a ceasefire. With help from the United States, Pakistan's DGMO contacted the Indian DGMO to request an immediate ceasefire.
+    </p>
+  </section>
+
+  <section id="conclusion">
+    <h2>Conclusion: A Message of Strength</h2>
+    <p>
+      Operation Sindoor redefined India’s doctrine against terror: swift, precise, and resolute. India not only delivered justice for the lives lost in Pahalgam but also set a new global benchmark for counter-terrorism operations.
+    </p>
+    <p>
+      On May 12, India made it clear to the world: <strong>India will NOT tolerate terrorism—at any cost.</strong>
+    </p>
+
+    <div class="comment-form">
+      <h3>Share Your Thoughts</h3>
+      <textarea rows="5" placeholder="Leave a comment..."></textarea>
+      <br>
+      <button type="button">Submit</button>
+    </div>
+  </section>
+
+  <footer>
+    &copy; 2025 Operation Sindoor | A Proud Indian Narrative. All Rights Reserved.
+    <p>Submitted by: Y.V.S Nishchay, Globeen Ray, Shambhunath Sahoo, Omkar Sarangi</p>
+    <p>Section: 24E1P1-ITER</p>
+  </footer>
+</body>
+</html>
